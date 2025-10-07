@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV de Arlette Guevara</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* SCROLL SUAVE */
+        html {
+            scroll-behavior: smooth;
+        }
+ 
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            margin: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+ 
+        .container {
+            width: 90%;
+            max-width: 1100px;
+            margin: 0 auto;
+            padding-bottom: 40px;
+        }
+ 
+        /* Navbar */
+        .navbar {
+            background: linear-gradient(to right, #6a11cb, #2575fc);
+            padding: 15px 0;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+ 
+        .navbar ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            margin: 0;
+            padding: 0;
+        }
+ 
+        .navbar ul li {
+            margin: 0 20px;
+        }
+ 
+        .navbar ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 16px;
+        }
+ 
+        .navbar ul li a:hover {
+            text-decoration: underline;
+        }
+ 
+        /* Header */
+        .header {
+            background: linear-gradient(to right, #6a11cb, #2575fc);
+            color: white;
+            text-align: center;
+            padding: 40px 20px;
+            border-radius: 10px;
+            margin-top: 10px;
+        }
+ 
+        .profile-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 15px;
+            border: 4px solid white;
+        }
+ 
+        /* Secciones */
+        section {
+            background: #fff;
+            padding: 30px;
+            margin-top: 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+ 
+        /* Cards Grid */
+        .card-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+ 
+        .card {
+            background-color: #f9f9f9;
+            padding: 15px 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.08);
+        }
+ 
+        /* Títulos */
+        h2 {
+            color: #6a11cb;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+ 
+        <!-- Navbar -->
+        <nav class="navbar">
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#sobre-mi">Sobre mí</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#contactos">Contactos</a></li>
+            </ul>
+        </nav>
+ 
+        <!-- INICIO -->
+        <header class="header" id="inicio">
+            <div class="profile-info">
+                <img src="C:\Users\Estudiantes\Desktop\Arlette Cabrera\MY_CV\media\foto.png" alt="Arlette Guevara" class="profile-img">
+                <h1>Arlette Guevara</h1>
+                <p>Estudiante Centro ¡Súperate! ADOC | Bachiller</p>
+            </div>
+        </header>
+ 
+        <!-- SOBRE MI -->
+        <section class="about" id="sobre-mi">
+            <h2>Sobre mí</h2>
+            <div class="card-grid">
+                <div class="card">
+                    <p>Soy estudiante del Centro ¡Súperate! ADOC y Bachiller con certificaciones que avalan mis habilidades en Excel, Tecnologías de la Información (ITS) y JavaScript. Actualmente, me encuentro estudiando inglés para fortalecer mi perfil profesional.
+                      Poseo tanto habilidades técnicas como blandas, destacando mi capacidad de resiliencia, liderazgo en momentos clave, y trabajo en equipo. Me apasiona aprender continuamente, adaptarme a nuevos retos y contribuir de forma proactiva a cualquier entorno de trabajo.</p>
+                </div>
+               
+            </div>
+        </section>
+ 
+        <!-- PROYECTOS -->
+        <section class="skills" id="proyectos">
+            <h2>Proyectos</h2>
+            <div class="card-grid">
+                <div class="card">Sitio Web con HTML, CSS y JavaScript</div>
+                <div class="card">Aplicación con React y Node.js</div>
+                <div class="card">Portafolio de Diseño Gráfico</div>
+                <div class="card">Proyectos en Photoshop e Illustrator</div>
+            </div>
+        </section>
+ 
+        <!-- EXPERIENCIA -->
+        <section class="experience">
+            <h2>Experiencia</h2>
+            <div class="card-grid">
+                <div class="card">
+                    <h3>Desarrolladora Web</h3>
+                    <p>Empresa XYZ - 2020 - Actualidad</p>
+                    <ul>
+                        <li>Desarrollo de sitios web interactivos.</li>
+                        <li>Optimización de interfaces de usuario.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+ 
+        <!-- CONTACTOS -->
+        <section class="contact" id="contactos">
+            <h2>Contactos</h2>
+            <div class="card-grid">
+                <div class="card">
+                    <p>Email: arlette.guevara@email.com</p>
+                </div>
+                <div class="card">
+                    <p>Teléfono: +123 456 7890</p>
+                </div>
+                <div class="card">
+                    <p>LinkedIn: linkedin.com/in/arletteguevara</p>
+                </div>
+                <div class="card">
+                    <p>Ubicación: El Salvador</p>
+                </div>
+            </div>
+        </section>
+ 
+    </div>
+</body>
+</html>
+ 
